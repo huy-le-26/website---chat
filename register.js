@@ -28,7 +28,7 @@ if (registerForm) {
     if (valid) {
       register(email, password)
         .then(() => {
-          window.location.pathname = "./index.html";
+          window.location.pathname = "./login.html";
         })
         .catch((error) => {});
     }
