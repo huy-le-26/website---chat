@@ -21,7 +21,7 @@ if (loginForm) {
     if (valid) {
       login(email, password)
         .then(() => {
-          window.location.pathname = "/index.html";
+          window.location.pathname = "./index.html";
         })
         .catch((error) => {});
     }
